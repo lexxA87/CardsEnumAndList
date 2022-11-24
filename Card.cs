@@ -7,8 +7,8 @@
             Value = value.ToString();
             Suit = suit.ToString();
         }
-        public string Suit { get; set; }
-        public string Value { get; set; }
+        public string Suit { get; private set; }
+        public string Value { get; private set; }
 
         public string Name
         {
